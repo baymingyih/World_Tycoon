@@ -1,0 +1,130 @@
+.about-us {
+  overflow: hidden;
+  background-image: url(../../assets/Group3904.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 102vh;
+  transform: translateY(-2vh);
+  z-index: -1;
+}
+.h-full-screen {
+  height: 72vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 2rem;
+}
+@media screen and (max-width: 992px) {
+  .h-full-screen {
+    height: 65vh;
+  }
+}
+@media screen and (max-width: 768px) {
+  .about-us {
+    height: 90vh;
+    transform: translateY(-2vh);
+  }
+}
+@media screen and (max-width: 576px) {
+  .about-us {
+    background-image: url(../../assets/Mobile_banner.png);
+    height: 100vh;
+    transform: translateY(-1vh);
+  }
+  .h-full-screen {
+    margin-left: 0rem;
+  }
+}
+.about_us-heading {
+  width: fit-content;
+  font-family: var(--anita);
+  font-size: 3rem;
+  line-height: 2.5rem;
+  max-width: 20rem;
+  margin: 0 auto;
+}
+.about_us-heading .img1 {
+  max-width: 2.5rem;
+  object-fit: contain;
+  margin-left: -1rem;
+}
+.about_us-heading .img2 {
+  max-width: 1.8rem;
+  object-fit: contain;
+}
+.us_heading {
+  display: block;
+  text-align: end;
+  transform: translate(33px, -15px);
+}
+.about-us-world {
+  max-width: 80%;
+}
+.m-t-4rem {
+  margin-top: 4rem;
+}
+.about_us-Subheading {
+  font-weight: 600;
+  font-family: var(--anita);
+  text-align: center;
+}
+.testimonial {
+  width: 11%;
+}
+.circle-1 {
+  position: absolute;
+  right: 0px;
+  width: 20%;
+}
+.about-sky {
+  position: absolute;
+  right: 5rem;
+  bottom: 0px;
+  width: 20%;
+}
+.circle-2 {
+  width: 36%;
+}
+.mobile-about-us-world {
+  display: none;
+}
+@media screen and (max-width: 1368px) {
+  .us_heading {
+    transform: translate(26px, -15px);
+  }
+}
+@media screen and (max-width: 768px) {
+  .circle-1,
+  .about-us-world,
+  .about-sky {
+    display: none;
+  }
+  .mobile-about-us-world {
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: -10px;
+  }
+  .circle-2 {
+    width: 20%;
+    transform: translateY(40px);
+  }
+  .testimonial {
+    width: 18%;
+  }
+  .about_us-descript {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+}
+@media screen and (max-width: 576px) {
+  .about_us-heading {
+    padding-top: 2rem;
+  }
+  .us_heading {
+    transform: translate(22px, -15px);
+  }
+  .mobile-about-us-world {
+    left: -20px;
+  }
+}

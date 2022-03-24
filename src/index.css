@@ -1,0 +1,50 @@
+@font-face {
+  font-family: "Anita semi square";
+  src: url("./fonts/Anita_semi_square.ttf");
+}
+@font-face {
+  font-family: "century Gothic";
+  src: url("./fonts/CenturyGothic.ttc");
+}
+@font-face {
+  font-family: "myriad pro regular";
+  src: url("./fonts/MyriadPro-Regular.otf");
+}
+:root {
+  --clr-white: #fff;
+  --clr-grey: #e6e7e8;
+  --clr-black: #000;
+  --anita: "Anita semi square";
+  --century: "century Gothic";
+  --myrid: "myriad pro regular";
+}
+html {
+  font-size: 20px;
+}
+body {
+  font-family: var(--century);
+}
+@media only screen and (max-width: 1370px) {
+  html {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 992px) {
+  html {
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  html {
+    font-size: 13px;
+  }
+}
+
+.max-width {
+  max-width: 1900px;
+}
+@media only screen and (max-width: 1370px) {
+  .max-width {
+    max-width: 1300px;
+  }
+}

@@ -1,0 +1,127 @@
+.teamBg {
+  background-image: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.8)
+    ),
+    url("../../assets/teambg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.teamHead {
+  font-family: var(--anita);
+  font-size: 3rem;
+  line-height: 2.5rem;
+  max-width: 20rem;
+  margin: 0 auto;
+}
+.teamHead .img1 {
+  max-width: 2.5rem;
+  object-fit: contain;
+  margin-left: -1rem;
+}
+.teamHead .img2 {
+  max-width: 1.8rem;
+  object-fit: contain;
+}
+.meetThe {
+  display: inline-block;
+  font-family: var(--anita);
+  font-size: 2rem;
+  line-height: 1rem;
+  margin-left: 1.5rem;
+  margin-top: 10px;
+}
+.teamCard {
+  border: none;
+  border-radius: 0px;
+  background-color: transparent;
+}
+.teamCardHeader {
+  background-color: transparent;
+  border-bottom: 0px;
+}
+.teamCardBTN {
+  color: #000;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-style: italic;
+  font-weight: 600;
+}
+.teamCardBTN:hover {
+  color: #000;
+  text-decoration: none;
+}
+.teamCardBTN:focus {
+  box-shadow: none;
+  text-decoration: none;
+}
+.teamBodyHead {
+  font-style: italic;
+  font-weight: 600;
+  font-size: 1rem;
+}
+.btnKnowMore {
+  font-style: italic;
+  font-weight: 600;
+  padding: 0.3rem 1.5rem;
+  border: 1px solid #000;
+  border-radius: 0px;
+}
+.btnKnowMore:hover {
+  border: 1px solid #000;
+  color: #fff;
+  background-color: #000;
+}
+.teamBody {
+  padding-left: 3rem;
+}
+.teamCardBTN:not(.collapsed)::before {
+  flex-shrink: 0;
+  width: 1.25rem;
+  height: 1.25rem;
+  margin-left: auto;
+  content: "-";
+  transition: transform 0.2s ease-in-out;
+}
+.teamCardBTN:before {
+  flex-shrink: 0;
+  width: 1.25rem;
+  height: 1.25rem;
+  margin-left: auto;
+  content: "+";
+  transition: transform 0.2s ease-in-out;
+}
+.disp1 {
+  display: none;
+}
+.teamImagePosition {
+  transform: translateY(10rem);
+}
+@media only screen and (max-width: 768px) {
+  .disp1 {
+    display: block;
+  }
+  .disp2 {
+    display: none;
+  }
+  .teamBg {
+    background-image: none;
+  }
+  .teamSecBG {
+    background-image: linear-gradient(
+        0deg,
+        rgba(255, 255, 255, 0.8),
+        rgba(255, 255, 255, 0.8)
+      ),
+      url("../../assets/teambg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .teamImagePosition {
+    transform: translateY(0rem);
+  }
+}

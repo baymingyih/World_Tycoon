@@ -1,0 +1,147 @@
+/* ownLand */
+.ownlandBg {
+  background-color: #e6e7e8;
+  transform: translateY(-5rem);
+}
+.ownLandLogo {
+  max-width: 17rem;
+  object-fit: contain;
+  transform: translateY(-9rem);
+}
+
+.purpleCloud {
+  max-width: 100%;
+  object-fit: contain;
+  transform: translateY(-11rem);
+}
+.landDivs {
+  transform: translateY(-8rem);
+}
+.landDivs2 {
+  transform: translate(13rem, -8rem);
+}
+.landDivs3 {
+  max-width: 11rem;
+  transform: translateY(-8rem);
+  margin-left: auto;
+}
+.landDivs h4 {
+  font-size: 4rem;
+  font-weight: 500;
+  font-family: var(--anita);
+  margin-bottom: 0;
+  line-height: 3.5rem;
+}
+.landDivs p {
+  text-transform: uppercase;
+  max-width: 13rem;
+  margin: 0 auto;
+  font-style: italic;
+}
+.landDivs2 p {
+  text-transform: uppercase;
+  max-width: 5rem;
+  margin: 0 auto;
+  font-style: italic;
+}
+.landDivs3 p {
+  text-transform: uppercase;
+  max-width: 6rem;
+  font-style: italic;
+  margin: 0 auto;
+}
+.landDivs2 h4 {
+  font-size: 4rem;
+  font-weight: 500;
+  font-family: var(--anita);
+  margin-bottom: 0;
+  line-height: 3.5rem;
+}
+.landDivs3 h4 {
+  font-size: 4rem;
+  font-weight: 500;
+  font-family: var(--anita);
+  margin-bottom: 0;
+  line-height: 3.5rem;
+}
+.ownlandSecBG {
+  background-image: url(../../assets/ownlandImg1.png);
+  background-repeat: no-repeat;
+  background-position: 0rem 20rem;
+  background-size: 30rem 30rem;
+}
+.landParagraph {
+  text-align: right;
+}
+.landParagraph span {
+  font-weight: 600;
+}
+.ownlandimg2 {
+  max-width: 9rem;
+  z-index: -1;
+  object-fit: contain;
+  transform: translate(3rem, 4rem);
+}
+.mintnowBtn {
+  max-width: 9rem;
+  z-index: 1;
+  object-fit: contain;
+  transform: translate(0rem, 0rem);
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.mintnowBtn:hover {
+  transform: scale(1.1);
+}
+.mintIMG1 {
+  display: none;
+}
+@media only screen and (max-width: 1370px) {
+  .ownlandSecBG {
+    background-position: 0rem 20rem;
+    background-size: 30rem 30rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .mintIMG1 {
+    display: inline;
+  }
+  .ownlandSecBG {
+    background-image: none;
+  }
+  .purpleCloud {
+    transform: translateY(0rem);
+  }
+  .landDivs2 {
+    transform: translate(0rem, -5rem);
+  }
+  .landDivs3 {
+    transform: translateY(-3rem);
+    margin-left: 0;
+    margin: 0 auto;
+  }
+  .landParagraph {
+    text-align: center;
+  }
+  .ownlandimg2 {
+    max-width: 9rem;
+    z-index: -1;
+    object-fit: contain;
+    transform: translate(0rem, 0rem);
+  }
+  .mintnowBtn {
+    max-width: 9rem;
+    z-index: 1;
+    margin: 5rem auto !important;
+    object-fit: contain;
+    transform: translate(-4rem, 0rem);
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+}
+@media screen and (max-width: 576px) {
+  .ownlandBg {
+    /* transform: translateY(-2rem); */
+  }
+}
+/* ownLand end */

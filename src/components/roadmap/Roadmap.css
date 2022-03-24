@@ -1,0 +1,74 @@
+.roadmapHeading {
+  max-width: 18rem;
+  text-align: right;
+  line-height: 2.5rem;
+  font-size: 3rem;
+  font-weight: 500;
+  font-family: var(--anita);
+  text-transform: uppercase;
+  margin: 0 auto;
+}
+.roadmapArrowGun {
+  max-width: 2.5rem;
+  object-fit: contain;
+  margin-right: -2rem;
+  margin-top: -0.5rem;
+}
+.roadmapSpan {
+  margin-right: -2rem;
+}
+.roadmapLine {
+  border-right: 1px solid #000;
+}
+.roadmapNumber {
+  font-family: var(--anita);
+  font-size: 15rem;
+  line-height: 14rem;
+  font-weight: 500;
+  text-align: right;
+  padding: 1rem 1rem;
+}
+.roadmapNumber2 {
+  font-family: var(--anita);
+  font-size: 15rem;
+  line-height: 14rem;
+  font-weight: 500;
+  text-align: left;
+  padding: 1rem 2.5rem;
+}
+.roadPara {
+  max-width: 25rem;
+  line-height: 1.7rem;
+  text-align: right;
+  margin: 5rem 0rem 5rem auto;
+}
+.roadPara2 {
+  max-width: 25rem;
+  line-height: 1.7rem;
+  margin: 7rem auto 7rem 0.5rem;
+}
+.btnComing {
+  border: 1px solid #000;
+  border-radius: 0px;
+  padding: 0.5rem 1rem;
+  text-transform: uppercase;
+}
+.btnComing:hover {
+  background-color: #000;
+  color: #fff;
+}
+@media only screen and (max-width: 768px) {
+  .roadmapNumber {
+    text-align: center;
+  }
+  .roadmapNumber2 {
+    text-align: center;
+    padding: 1rem 1rem;
+  }
+  .roadPara {
+    margin: 5rem 0rem 5rem 0rem;
+  }
+  .roadPara2 {
+    margin: 8rem 0rem 8rem 0rem;
+  }
+}
